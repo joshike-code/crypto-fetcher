@@ -1,0 +1,25 @@
+{
+  "name": "natoursapp",
+  "version": "1.0.0",
+  "description": "node app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshike-code/natoursapp.git"
+  },
+  "author": "Ikenna Anunuso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshike-code/natoursapp/issues"
+  },
+  "homepage": "https://github.com/joshike-code/natoursapp#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.21"
+  }
+}
